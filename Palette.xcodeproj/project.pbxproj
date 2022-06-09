@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		24062C1F28513BBE008D72C0 /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24062C1E28513BBD008D72C0 /* PaletteViewController.swift */; };
 		24062C22285143C1008D72C0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24062C21285143C1008D72C0 /* UIViewExtension.swift */; };
+		2430FED72852951B00A79009 /* PaletteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430FED62852951B00A79009 /* PaletteTableViewCell.swift */; };
+		2430FED928529B1D00A79009 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430FED828529B1D00A79009 /* ColorPaletteView.swift */; };
 		7EA78F2D24B8A1B40025BBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78F2C24B8A1B40025BBFF /* AppDelegate.swift */; };
 		7EA78F2F24B8A1B40025BBFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78F2E24B8A1B40025BBFF /* SceneDelegate.swift */; };
 		7EA78F3624B8A1B50025BBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA78F3524B8A1B50025BBFF /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		24062C1E28513BBD008D72C0 /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
 		24062C21285143C1008D72C0 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2430FED62852951B00A79009 /* PaletteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTableViewCell.swift; sourceTree = "<group>"; };
+		2430FED828529B1D00A79009 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		7EA78F2924B8A1B40025BBFF /* Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA78F2C24B8A1B40025BBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA78F2E24B8A1B40025BBFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				24062C1E28513BBD008D72C0 /* PaletteViewController.swift */,
+				2430FED62852951B00A79009 /* PaletteTableViewCell.swift */,
+				2430FED828529B1D00A79009 /* ColorPaletteView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -217,9 +223,11 @@
 				7EA78F4924B8A2F80025BBFF /* UIColorExtension.swift in Sources */,
 				7EA78F5624B8A3F60025BBFF /* UnsplashRoute.swift in Sources */,
 				7EA78F4E24B8A3450025BBFF /* ImaggaColor.swift in Sources */,
+				2430FED72852951B00A79009 /* PaletteTableViewCell.swift in Sources */,
 				7EA78F5124B8A3A20025BBFF /* ImaggaService.swift in Sources */,
 				7EA78F4C24B8A3290025BBFF /* UnsplashPhoto.swift in Sources */,
 				7EA78F2F24B8A1B40025BBFF /* SceneDelegate.swift in Sources */,
+				2430FED928529B1D00A79009 /* ColorPaletteView.swift in Sources */,
 				7EA78F5424B8A3D60025BBFF /* UnsplashService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
